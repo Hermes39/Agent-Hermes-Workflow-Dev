@@ -4,6 +4,6 @@
 <a href="getting-started.zh-TW.md">繁體中文</a> |
 <a href="getting-started.ja.md">日本語</a>
 </p>
-# Getting Started
+# 快速上手
 
-<!-- TODO -->
+<!-- 待补充 -->

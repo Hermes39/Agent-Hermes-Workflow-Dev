@@ -4,6 +4,6 @@
 <a href="architecture.zh-TW.md">繁體中文</a> |
 <a href="architecture.ja.md">日本語</a>
 </p>
-# Architecture
+# 架構說明
 
-<!-- TODO -->
+<!-- 待補充 -->
