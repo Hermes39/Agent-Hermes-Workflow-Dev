@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "updated": "ISO-8601",
+  "items": [
+    {
+      "id": "<ITEM_ID>",
+      "issue": "Issue description",
+      "severity": "trivial|minor|moderate|major|critical",
+      "action": "Suggested action",
+      "status": "pending|decided|deferred",
+      "created": "YYYY-MM-DD",
+      "decision": "Decision text (decided/deferred only)",
+      "decided": "YYYY-MM-DD (decided only)"
+    }
+  ]
+}

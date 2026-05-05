@@ -1,0 +1,25 @@
+{
+  "data_dir": "$DATA_DIR/memory-audit",
+  "retention": {
+    "daily_reports": 14,
+    "daily_backups": 14,
+    "weekly_reports": -1,
+    "monthly_reports": -1,
+    "feedback_timeout_days": 60
+  },
+  "audit_schedule": {
+    "daily": "0 9 * * *",
+    "weekly": "0 10 * * 1",
+    "monthly": "0 10 1 * *"
+  },
+  "severity": {
+    "auto_fix": ["trivial", "minor"],
+    "require_approval": ["moderate", "major"],
+    "immediate_alert": ["critical"]
+  },
+  "notification": {
+    "daily": "<your-notification-target>",
+    "weekly": "<your-notification-target>",
+    "monthly": "<your-notification-target>"
+  }
+}
