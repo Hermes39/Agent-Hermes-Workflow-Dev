@@ -405,4 +405,4 @@ A: はい。3段階は推奨であり、毎日（軽量）のみ、または毎�
 
 ---
 
-*Memory Audit Architecture 1.1.0*
+*Memory Audit Architecture 1.2.0*

@@ -404,4 +404,4 @@ A: 可以。三級是建議，你可以只做每日（輕量）或只做每月�
 
 ---
 
-*Memory Audit Architecture 1.1.0*
+*Memory Audit Architecture 1.2.0*

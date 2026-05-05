@@ -404,4 +404,4 @@ A: Yes. Three tiers are recommended; you can do only daily (lightweight) or only
 
 ---
 
-*Memory Audit Architecture 1.1.0*
+*Memory Audit Architecture 1.2.0*
