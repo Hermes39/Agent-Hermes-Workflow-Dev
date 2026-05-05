@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file.
 
 Format: [Keep a Changelog](https://keepachangelog.com/), versioning: [Semantic Versioning](https://semver.org/).
 
-## [1.1.0] - 2026-05-04
+## [1.1.0] - 2026-05-05
 
 ### Added
 
@@ -19,7 +19,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/), versioning: [Semantic V
 - YAML frontmatter (name, description, version, updated) on all artifact files
 - Version control system: three-layer scheme (artifact, repo, sync)
 
-## [1.0.0] - 2026-05-04
+## [1.0.0] - 2026-05-05
 
 ### Added
 

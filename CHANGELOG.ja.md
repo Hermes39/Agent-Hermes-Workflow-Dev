@@ -11,7 +11,7 @@
 
 フォーマット: [Keep a Changelog](https://keepachangelog.com/)、バージョニング: [セマンティックバージョニング](https://semver.org/)。
 
-## [1.1.0] - 2026-05-04
+## [1.1.0] - 2026-05-05
 
 ### 追加
 
@@ -19,7 +19,7 @@
 - 全製品ファイルに YAML frontmatter（name、description、version、updated）を追加
 - バージョン管理システム：3層方式（製品、リポジトリ、同期）
 
-## [1.0.0] - 2026-05-04
+## [1.0.0] - 2026-05-05
 
 ### 追加
 

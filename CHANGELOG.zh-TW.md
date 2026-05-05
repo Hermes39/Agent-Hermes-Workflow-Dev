@@ -11,7 +11,7 @@
 
 格式：[Keep a Changelog](https://keepachangelog.com/)，版本：[語意化版本](https://semver.org/)。
 
-## [1.1.0] - 2026-05-04
+## [1.1.0] - 2026-05-05
 
 ### 新增
 
@@ -19,7 +19,7 @@
 - 所有製品檔案添加 YAML frontmatter（name、description、version、updated）
 - 版本控制系統：三層方案（製品、倉庫、同步）
 
-## [1.0.0] - 2026-05-04
+## [1.0.0] - 2026-05-05
 
 ### 新增
 
