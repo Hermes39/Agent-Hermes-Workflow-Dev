@@ -43,31 +43,11 @@ documentation, references, and templates.
 | Workflow | Description |
 |----------|-------------|
 | `memory-audit` | Three-tier audit system (daily/weekly/monthly) with feedback loop |
-| `agent-operations` | Agent lifecycle: initialization, documentation, self-check |
-| `data-sync` | Version-controlled data with security classification |
-| `communication` | Matrix bot, email, and publishing workflows |
-| `infrastructure` | Server setup, gateway, permissions, monitoring |
-
-## Skills
-
-| Skill | Description |
-|-------|-------------|
-| `memory-tier-workflow` | Multi-layer memory hierarchy for knowledge persistence |
-| `system-self-check` | Full system diagnostic health check |
-| `hermes-data-git` | Secure version control for agent data |
-| `agent-init-documentation` | Automated documentation generation |
-| `container-permission-watcher` | Real-time permission conflict resolution |
 
 ## Quick Start
 
 1. Browse the `workflows/` directory for architecture designs relevant to your setup
-2. Browse the `skills/` directory for operational procedures you can adapt
-3. Each workflow and skill includes its own README with setup instructions
-
-## Documentation
-
-- [Getting Started](docs/getting-started.md) — Setup guide
-- [Architecture](docs/architecture.md) — Detailed four-layer architecture explanation
+2. Each workflow includes its own README, architecture document, and templates
 
 ## Contributing
 

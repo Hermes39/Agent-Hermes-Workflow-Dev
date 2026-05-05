@@ -41,31 +41,11 @@ Agent 運維遵循四層設計：
 | 工作流 | 說明 |
 |--------|------|
 | `memory-audit` | 三級審計系統（日/週/月），帶反饋閉環 |
-| `agent-operations` | Agent 生命週期：初始化、文件化、自檢 |
-| `data-sync` | 帶安全分類的版本化資料同步 |
-| `communication` | Matrix 機器人、郵件和發佈工作流 |
-| `infrastructure` | 伺服器配置、閘道、權限、監控 |
-
-## 技能
-
-| 技能 | 說明 |
-|------|------|
-| `memory-tier-workflow` | 多層記憶體系，用於知識持久化 |
-| `system-self-check` | 完整系統診斷健康檢查 |
-| `hermes-data-git` | Agent 資料的安全版本控制 |
-| `agent-init-documentation` | 自動化文件生成 |
-| `container-permission-watcher` | 即時權限衝突檢測與修復 |
 
 ## 快速開始
 
 1. 瀏覽 `workflows/` 目錄，找到與你場景相關的架構設計
-2. 瀏覽 `skills/` 目錄，獲取可適配的操作流程
-3. 每個工作流和技能都包含獨立的 README 和使用說明
-
-## 文件
-
-- [快速上手](docs/getting-started.zh-TW.md) — 安裝指南
-- [架構說明](docs/architecture.zh-TW.md) — 四層架構詳解
+2. 每個工作流包含獨立的 README、架構文件和模板
 
 ## 貢獻
 
