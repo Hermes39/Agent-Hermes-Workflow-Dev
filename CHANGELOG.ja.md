@@ -11,7 +11,15 @@
 
 フォーマット: [Keep a Changelog](https://keepachangelog.com/)、バージョニング: [セマンティックバージョニング](https://semver.org/)。
 
-## [1.0.0] - 2026-05-05
+## [1.1.0] - 2026-05-04
+
+### 追加
+
+- `workflows/memory-audit/` ARCHITECTURE.md v1.1.0 — 設計哲学を拡張、設計決定記録、よくある落とし穴、設定構造ドキュメントを追加
+- 全製品ファイルに YAML frontmatter（name、description、version、updated）を追加
+- バージョン管理システム：3層方式（製品、リポジトリ、同期）
+
+## [1.0.0] - 2026-05-04
 
 ### 追加
 

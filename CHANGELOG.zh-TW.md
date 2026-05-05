@@ -11,7 +11,15 @@
 
 格式：[Keep a Changelog](https://keepachangelog.com/)，版本：[語意化版本](https://semver.org/)。
 
-## [1.0.0] - 2026-05-05
+## [1.1.0] - 2026-05-04
+
+### 新增
+
+- `workflows/memory-audit/` ARCHITECTURE.md v1.1.0 — 擴展設計哲學，新增設計決策紀錄、常見陷阱、配置結構文件
+- 所有製品檔案添加 YAML frontmatter（name、description、version、updated）
+- 版本控制系統：三層方案（製品、倉庫、同步）
+
+## [1.0.0] - 2026-05-04
 
 ### 新增
 

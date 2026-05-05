@@ -1,8 +1,8 @@
 ---
 name: memory-audit
 description: "Three-tier audit system (daily/weekly/monthly) with feedback loop."
-version: 1.0.0
-updated: 2026-05-05
+version: 1.1.0
+updated: 2026-05-04
 ---
 
 <p align="right">

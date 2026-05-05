@@ -1,8 +1,8 @@
 ---
 name: memory-audit
 description: "三級審計系統（日/週/月），帶反饋閉環。"
-version: 1.0.0
-updated: 2026-05-05
+version: 1.1.0
+updated: 2026-05-04
 ---
 
 <p align="right">

@@ -11,7 +11,15 @@ All notable changes to this project will be documented in this file.
 
 Format: [Keep a Changelog](https://keepachangelog.com/), versioning: [Semantic Versioning](https://semver.org/).
 
-## [1.0.0] - 2026-05-05
+## [1.1.0] - 2026-05-04
+
+### Added
+
+- `workflows/memory-audit/` ARCHITECTURE.md v1.1.0 — expanded design philosophy with design decision records, pitfalls section, config structure documentation
+- YAML frontmatter (name, description, version, updated) on all artifact files
+- Version control system: three-layer scheme (artifact, repo, sync)
+
+## [1.0.0] - 2026-05-04
 
 ### Added
 

@@ -1,8 +1,8 @@
 ---
 name: memory-audit
 description: "3層監査システム（日次/週次/月次）、フィードバックループ付き。"
-version: 1.0.0
-updated: 2026-05-05
+version: 1.1.0
+updated: 2026-05-04
 ---
 
 <p align="right">
