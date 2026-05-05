@@ -1,3 +1,10 @@
+---
+name: memory-audit
+description: "三级审计系统，带反馈闭环 — 模块概述。"
+version: 1.0.0
+updated: 2026-05-05
+---
+
 <p align="right">
 <a href="README.md">English</a> |
 <a href="README.zh-CN.md">简体中文</a> |

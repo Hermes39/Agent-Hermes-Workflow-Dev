@@ -1,3 +1,10 @@
+---
+name: memory-audit
+description: "三级审计系统（日/周/月），带反馈闭环。"
+version: 1.0.0
+updated: 2026-05-05
+---
+
 <p align="right">
 <a href="ARCHITECTURE.md">English</a> |
 <a href="ARCHITECTURE.zh-CN.md">简体中文</a> |

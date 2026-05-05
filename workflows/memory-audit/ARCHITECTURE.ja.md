@@ -1,3 +1,10 @@
+---
+name: memory-audit
+description: "3層監査システム（日次/週次/月次）、フィードバックループ付き。"
+version: 1.0.0
+updated: 2026-05-05
+---
+
 <p align="right">
 <a href="ARCHITECTURE.md">English</a> |
 <a href="ARCHITECTURE.zh-CN.md">简体中文</a> |

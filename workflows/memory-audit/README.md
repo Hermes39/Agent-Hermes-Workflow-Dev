@@ -1,3 +1,10 @@
+---
+name: memory-audit
+description: "Three-tier audit system with feedback loop — module overview."
+version: 1.0.0
+updated: 2026-05-05
+---
+
 <p align="right">
 <a href="README.md">English</a> |
 <a href="README.zh-CN.md">简体中文</a> |
