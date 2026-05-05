@@ -1,0 +1,21 @@
+# Memory Audit - Git Ignore Rules
+
+# Sensitive files
+.env
+*.key
+*.pem
+
+# Daily audit files (local only, configurable retention)
+memory-audit/backups/daily/
+memory-audit/records/daily/
+
+# The following are version controlled (permanent retention):
+# - memory-audit/backups/weekly/
+# - memory-audit/backups/monthly/
+# - memory-audit/records/weekly/
+# - memory-audit/records/monthly/
+# - memory-audit/state/
+
+# Temporary files
+*.tmp
+*.bak
