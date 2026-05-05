@@ -1,47 +1,47 @@
-# 月记忆审计 — {YYYY年M月}
+# Monthly Memory Audit — {YYYY-MM}
 
-| 项目 | 值 |
-|------|-----|
-| 审查时间 | {ISO timestamp} |
-| 审查范围 | {start} ~ {end} |
+| Item | Value |
+|------|-------|
+| Audit Time | {ISO timestamp} |
+| Scope | {start} ~ {end} |
 | Profile | {chars}/{max} ({pct}%) |
 | Memory | {chars}/{max} ({pct}%) |
 
-## 备份
+## Backup
 - ✅ backups/monthly/{YYYY-MM}-backup.md
-- ✅ {n} 份周备份已确认
+- ✅ {n} weekly backups confirmed
 
-## 周度摘要
-| 周 | 日期范围 | 问题数 | 自动修复 | 用户决策 |
-|----|----------|--------|----------|----------|
+## Weekly Summary
+| Week | Date Range | Issues | Auto-fix | User Decisions |
+|------|------------|--------|----------|----------------|
 | {WEEK_ID} | {DATE_RANGE} | {n} | {n} | {n} |
 
-## 问题生命周期
-| # | 问题 | 严重度 | 发现 | 修复 | 耗时 | 结果 |
-|---|------|--------|------|------|------|------|
-| 1 | {描述} | {级} | {周/日} | {周/日} | {n}天 | {结果} |
+## Issue Lifecycle
+| # | Issue | Severity | Found | Resolved | Duration | Result |
+|---|-------|----------|-------|----------|----------|--------|
+| 1 | {description} | {level} | {week/day} | {week/day} | {n} days | {result} |
 
-## 反馈汇总
-| ID | 问题 | 决策 | 日期 |
-|----|------|------|------|
-| {id} | {描述} | {结果} | {日期} |
+## Feedback Summary
+| ID | Issue | Decision | Date |
+|----|-------|----------|------|
+| {id} | {description} | {result} | {date} |
 
-本月决策: {n} 项 | 批准: {n} | 忽略: {n} | 推迟: {n}
+Monthly decisions: {n} total | Approved: {n} | Ignored: {n} | Deferred: {n}
 
-## 健康度
-| 指标 | 值 |
-|------|-----|
-| 本月问题数 | {n} |
-| 自动修复率 | {pct}% |
-| 平均修复时间 | {n}天 |
-| 遗留问题 | {n} |
-| Profile 趋势 | {start}% → {end}% |
-| Memory 趋势 | {start}% → {end}% |
-| 评级 | ★★★★★ |
+## Health Metrics
+| Metric | Value |
+|--------|-------|
+| Issues this month | {n} |
+| Auto-fix rate | {pct}% |
+| Avg resolution time | {n} days |
+| Open issues | {n} |
+| Profile trend | {start}% → {end}% |
+| Memory trend | {start}% → {end}% |
+| Rating | ★★★★★ |
 
-## 反馈待处理
-| ID | 问题 | 严重度 | 建议 | 来源 |
-|----|------|--------|------|------|
-| {id} | {描述} | {级} | {操作} | {周} |
+## Pending Feedback
+| ID | Issue | Severity | Suggestion | Source |
+|----|-------|----------|------------|--------|
+| {id} | {description} | {level} | {action} | {week} |
 
-(无待处理时: "✅ 无待处理项")
+(When no pending items: "✅ No pending items")

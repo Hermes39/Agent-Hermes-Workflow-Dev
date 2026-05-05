@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "3層監査システム（日次/週次/月次）、フィードバックループ付き。"
-version: 1.1.0
+version: 1.2.0
 updated: 2026-05-05
 ---
 
@@ -294,7 +294,7 @@ moderate/major の pending あり
 
 スケジューリング能力に応じて頻度を選択してください：
 
-| 频度 | 適したシナリオ |
+| 頻度 | 適したシナリオ |
 |------|--------------|
 | 毎日 | メモリが頻繁に更新される Agent |
 | 毎週 | 中程度の使用頻度 |
@@ -304,7 +304,12 @@ moderate/major の pending あり
 
 フィードバック状態ファイル（JSON 推奨）でアクティブな項目を追跡します。レポートが履歴を保持し、状態ファイルは現在のみを保存します。
 
-主要フィールド：
+エンベロープ構造：
+- `version`：スキーマバージョン（整数、例：`1`）
+- `updated`：最終更新時刻（ISO-8601）
+- `items`：フィードバックエントリの配列
+
+各エントリの主要フィールド：
 - `id`：一意識別子
 - `issue`：問題の説明
 - `severity`：重要度レベル（trivial / minor / moderate / major / critical）
@@ -400,4 +405,4 @@ A: はい。3段階は推奨であり、毎日（軽量）のみ、または毎�
 
 ---
 
-*Memory Audit Architecture v1.1*
+*Memory Audit Architecture 1.1.0*

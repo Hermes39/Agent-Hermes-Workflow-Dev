@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "三級審計系統（日/週/月），帶反饋閉環。"
-version: 1.1.0
+version: 1.2.0
 updated: 2026-05-05
 ---
 
@@ -301,9 +301,14 @@ Memory Audit 是一種主動管理機制：透過定期審查、分級回應、�
 
 **第三步：實現反饋迴圈**
 
-反饋狀態檔案（JSON 推薦）追蹤活躍項。報告承載歷史，狀態檔案只存當前。
+使用回饋狀態檔（推薦 JSON 格式）追蹤活躍項目。報告保留歷史，狀態檔只儲存當前。
 
-核心欄位：
+信封結構：
+- `version`：Schema 版本（整數，如 `1`）
+- `updated`：最後修改時間（ISO-8601）
+- `items`：回饋條目陣列
+
+每條核心欄位：
 - `id`：唯一識別
 - `issue`：問題描述
 - `severity`：嚴重度級別（trivial / minor / moderate / major / critical）
@@ -399,4 +404,4 @@ A: 可以。三級是建議，你可以只做每日（輕量）或只做每月�
 
 ---
 
-*Memory Audit Architecture v1.1*
+*Memory Audit Architecture 1.1.0*

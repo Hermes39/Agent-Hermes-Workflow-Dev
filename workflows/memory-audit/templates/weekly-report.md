@@ -1,49 +1,49 @@
-# 周记忆审计 — {YYYY-WNN} ({MM/DD}~{MM/DD})
+# Weekly Memory Audit — {YYYY-WNN} ({MM/DD}~{MM/DD})
 
-| 项目 | 值 |
-|------|-----|
-| 审查时间 | {ISO timestamp} |
-| 审查范围 | {start} ~ {end} |
+| Item | Value |
+|------|-------|
+| Audit Time | {ISO timestamp} |
+| Scope | {start} ~ {end} |
 | Profile | {chars}/{max} ({pct}%) |
 | Memory | {chars}/{max} ({pct}%) |
 
-## 备份
+## Backup
 - ✅ backups/weekly/{WNN}-backup.md
-- ✅ 7 份 daily 备份已确认
+- ✅ 7 daily backups confirmed
 
-## 每日摘要
-| 日期 | Profile | Memory | 自动修复 | 发现问题 |
-|------|---------|--------|----------|----------|
+## Daily Summary
+| Date | Profile | Memory | Auto-fix | Issues Found |
+|------|---------|--------|----------|--------------|
 | {date} | {pct}% | {pct}% | {n} | {n} |
 
-## 审查结果
+## Audit Results
 
 ### Profile
-| # | 条目 | 状态 | 问题 | 操作 |
-|---|------|------|------|------|
+| # | Entry | Status | Issue | Action |
+|---|-------|--------|-------|--------|
 
 ### Memory
-| # | 条目 | 状态 | 问题 | 操作 |
-|---|------|------|------|------|
+| # | Entry | Status | Issue | Action |
+|---|-------|--------|-------|--------|
 
-## 问题汇总
-| 问题 | 严重度 | 发现 | 状态 | 决策 |
-|------|--------|------|------|------|
-| {描述} | {级} | {日期} | ✅/⏳/⏸️ | {决策} |
+## Issues Summary
+| Issue | Severity | Found | Status | Decision |
+|-------|----------|-------|--------|----------|
+| {description} | {level} | {date} | ✅/⏳/⏸️ | {decision} |
 
-## 反馈
+## Feedback
 
-### 待处理 ({n} 项)
-| ID | 问题 | 严重度 | 建议操作 |
-|----|------|--------|----------|
-| {id} | {描述} | {级} | {操作} |
+### Pending ({n} items)
+| ID | Issue | Severity | Suggested Action |
+|----|-------|----------|------------------|
+| {id} | {description} | {level} | {action} |
 
-### 上期决策确认
-| ID | 问题 | 决策 |
-|----|------|------|
-| {id} | {描述} | {结果} |
+### Previous Decisions Confirmed
+| ID | Issue | Decision |
+|----|-------|----------|
+| {id} | {description} | {result} |
 
-(无待处理时: "✅ 无待处理项")
+(When no pending items: "✅ No pending items")
 
-## 清理状态
-- {清理结果}
+## Cleanup Status
+- {cleanup result}

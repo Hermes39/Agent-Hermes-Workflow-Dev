@@ -1,28 +1,28 @@
-# 每日记忆审计 — {YYYY-MM-DD}
+# Daily Memory Audit — {YYYY-MM-DD}
 
-| 项目 | 值 |
-|------|-----|
-| 审查时间 | {ISO timestamp} |
+| Item | Value |
+|------|-------|
+| Audit Time | {ISO timestamp} |
 | Profile | {chars}/{max} ({pct}%) |
 | Memory | {chars}/{max} ({pct}%) |
 
-## 备份
+## Backup
 - ✅ backups/daily/{date}-backup.md
 
-## 审查结果
+## Audit Results
 
 ### Profile
-| # | 条目 | 状态 | 问题 | 操作 |
-|---|------|------|------|------|
-| 1 | {摘要} | ✅/⚠️/🔧 | {描述} | {操作} |
+| # | Entry | Status | Issue | Action |
+|---|-------|--------|-------|--------|
+| 1 | {summary} | ✅/⚠️/🔧 | {description} | {action} |
 
 ### Memory
-| # | 条目 | 状态 | 问题 | 操作 |
-|---|------|------|------|------|
-| 1 | {摘要} | ✅/⚠️/🔧 | {描述} | {操作} |
+| # | Entry | Status | Issue | Action |
+|---|-------|--------|-------|--------|
+| 1 | {summary} | ✅/⚠️/🔧 | {description} | {action} |
 
-## 本次操作
-- {操作列表, 无则写"无"}
+## Actions Taken
+- {action list, or "None"}
 
-## 备注
-- {moderate/major 问题仅记录, 由周报统一处理}
+## Notes
+- {moderate/major issues logged only, handled in weekly report}

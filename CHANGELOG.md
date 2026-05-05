@@ -1,32 +1,34 @@
-<p align="right">
-<a href="CHANGELOG.md">English</a> |
-<a href="CHANGELOG.zh-CN.md">简体中文</a> |
-<a href="CHANGELOG.zh-TW.md">繁體中文</a> |
-<a href="CHANGELOG.ja.md">日本語</a>
-</p>
-
 # Changelog
 
 All notable changes to this project will be documented in this file.
 
-Format: [Keep a Changelog](https://keepachangelog.com/), versioning: [Semantic Versioning](https://semver.org/).
+Format based on [Keep a Changelog](https://keepachangelog.com/).
+
+## [1.2.0] - 2026-05-05
+
+### Added
+- Report templates (daily/weekly/monthly) now available in all 4 languages: EN, zh-CN, zh-TW, JA
+- Feedback.json envelope structure (version, updated, items) documented in ARCHITECTURE.md section 5.1
+
+### Fixed
+- Japanese translation: 频度 → 頻度 (line 297 of ARCHITECTURE.ja.md)
+- Footer version format unified: "v1.1" → "1.1.0" (matches semver in frontmatter)
 
 ## [1.1.0] - 2026-05-05
 
 ### Added
+- YAML frontmatter (name, description, version, updated) to all ARCHITECTURE.md files
+- Four-language support: zh-CN, zh-TW, ja translations for ARCHITECTURE.md
 
-- `workflows/memory-audit/` ARCHITECTURE.md v1.1.0 — expanded design philosophy with design decision records, pitfalls section, config structure documentation
-- YAML frontmatter (name, description, version, updated) on all artifact files
-- Version control system: three-layer scheme (artifact, repo, sync)
+### Changed
+- Architecture aligned with actual implementation: merged audit + feedback into single workflow
+- Honest README approach: README only lists content that actually exists
+- Removed empty docs/ files that were never populated
 
 ## [1.0.0] - 2026-05-05
 
 ### Added
-
-- `workflows/memory-audit/` — three-tier audit system (daily/weekly/monthly) with feedback loop
-  - ARCHITECTURE.md: design philosophy document (EN, zh-CN, zh-TW, JA)
-  - README.md: module overview (EN, zh-CN, zh-TW, JA)
-  - templates/: config.json, feedback.json, daily/weekly/monthly report, gitignore
-- Four-layer architecture documentation (Workflows → Skills → Docs → Config)
-- Project README with architecture overview
-- MIT License
+- Initial release of the Memory Audit workflow
+- ARCHITECTURE.md: Complete design documentation
+- README.md: Quick start and usage guide
+- Templates: config.json, feedback.json, daily/weekly/monthly report skeletons

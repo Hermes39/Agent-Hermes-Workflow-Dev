@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "三级审计系统（日/周/月），带反馈闭环。"
-version: 1.1.0
+version: 1.2.0
 updated: 2026-05-05
 ---
 
@@ -301,9 +301,14 @@ Memory Audit 是一种主动管理机制：通过定期审查、分级响应、�
 
 **第三步：实现反馈循环**
 
-反馈状态文件（JSON 推荐）追踪活跃项。报告承载历史，状态文件只存当前。
+使用反馈状态文件（推荐 JSON 格式）跟踪活跃项目。报告保留历史，状态文件只存储当前。
 
-核心字段：
+信封结构：
+- `version`：Schema 版本（整数，如 `1`）
+- `updated`：最后修改时间（ISO-8601）
+- `items`：反馈条目数组
+
+每条核心字段：
 - `id`：唯一标识
 - `issue`：问题描述
 - `severity`：严重度级别（trivial / minor / moderate / major / critical）
@@ -399,4 +404,4 @@ A: 可以。三级是建议，你可以只做每日（轻量）或只做每月�
 
 ---
 
-*Memory Audit Architecture v1.1*
+*Memory Audit Architecture 1.1.0*

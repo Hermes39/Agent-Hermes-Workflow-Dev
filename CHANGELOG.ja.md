@@ -1,32 +1,34 @@
-<p align="right">
-<a href="CHANGELOG.md">English</a> |
-<a href="CHANGELOG.zh-CN.md">简体中文</a> |
-<a href="CHANGELOG.zh-TW.md">繁體中文</a> |
-<a href="CHANGELOG.ja.md">日本語</a>
-</p>
-
 # 変更履歴
 
-このプロジェクトのすべての重要な変更はこのファイルに記録されます。
+このファイルはプロジェクトの重要な変更を記録します。
 
-フォーマット: [Keep a Changelog](https://keepachangelog.com/)、バージョニング: [セマンティックバージョニング](https://semver.org/)。
+フォーマットは [Keep a Changelog](https://keepachangelog.com/) に準拠。
+
+## [1.2.0] - 2026-05-05
+
+### 追加
+- レポートテンプレート（日次/週次/月次）が4言語で利用可能に：EN、zh-CN、zh-TW、JA
+- ARCHITECTURE.md 5.1節にfeedback.jsonエンベロープ構造のドキュメント追加（version、updated、items）
+
+### 修正
+- 日本語翻訳：频度 → 頻度（ARCHITECTURE.ja.md 297行目）
+- フッターバージョン形式統一："v1.1" → "1.1.0"（frontmatterのsemverと一致）
 
 ## [1.1.0] - 2026-05-05
 
 ### 追加
+- 全ARCHITECTURE.mdにYAML frontmatter追加（name、description、version、updated）
+- 4言語対応：ARCHITECTURE.mdのzh-CN、zh-TW、ja翻訳
 
-- `workflows/memory-audit/` ARCHITECTURE.md v1.1.0 — 設計哲学を拡張、設計決定記録、よくある落とし穴、設定構造ドキュメントを追加
-- 全製品ファイルに YAML frontmatter（name、description、version、updated）を追加
-- バージョン管理システム：3層方式（製品、リポジトリ、同期）
+### 変更
+- 実装に合わせたアーキテクチャ：監査＋フィードバックを単一ワークフローに統合
+- Honest README方式：READMEには実際に存在するコンテンツのみ記載
+- 未使用の空のdocs/ファイルを削除
 
 ## [1.0.0] - 2026-05-05
 
 ### 追加
-
-- `workflows/memory-audit/` — 3層監査システム（日次/週次/月次）、フィードバックループ付き
-  - ARCHITECTURE.md: 設計哲学ドキュメント（英語、簡中、繁中、日本語）
-  - README.md: モジュール概要（英語、簡中、繁中、日本語）
-  - templates/: config.json、feedback.json、日次/週次/月次レポート、gitignore
-- 4層アーキテクチャドキュメント（ワークフロー → スキル → ドキュメント → 設定）
-- プロジェクト README とアーキテクチャ概要
-- MIT ライセンス
+- メモリ監査ワークフロー初期リリース
+- ARCHITECTURE.md：完全な設計ドキュメント
+- README.md：クイックスタートと使用ガイド
+- テンプレート：config.json、feedback.json、日次/週次/月次レポートスケルトン

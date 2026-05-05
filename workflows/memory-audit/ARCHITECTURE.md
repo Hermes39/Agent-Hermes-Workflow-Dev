@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "Three-tier audit system (daily/weekly/monthly) with feedback loop."
-version: 1.1.0
+version: 1.2.0
 updated: 2026-05-05
 ---
 
@@ -303,7 +303,12 @@ Choose frequency based on your scheduling capabilities:
 
 A feedback status file (JSON recommended) tracks active items. Reports carry history; the status file only stores the present.
 
-Core fields:
+Envelope structure:
+- `version`: Schema version (integer, e.g. `1`)
+- `updated`: Last modification time (ISO-8601)
+- `items`: Array of feedback entries
+
+Core fields per item:
 - `id`: Unique identifier
 - `issue`: Issue description
 - `severity`: Severity level (trivial / minor / moderate / major / critical)
@@ -399,4 +404,4 @@ A: Yes. Three tiers are recommended; you can do only daily (lightweight) or only
 
 ---
 
-*Memory Audit Architecture v1.1*
+*Memory Audit Architecture 1.1.0*
