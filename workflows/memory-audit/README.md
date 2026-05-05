@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "Three-tier audit system with feedback loop — module overview."
-version: 1.0.0
+version: 1.1.0
 updated: 2026-05-05
 ---
 

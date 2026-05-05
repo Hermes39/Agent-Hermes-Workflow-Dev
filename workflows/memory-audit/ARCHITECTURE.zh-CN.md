@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "三级审计系统（日/周/月），带反馈闭环。"
-version: 1.2.0
+version: 1.1.0
 updated: 2026-05-05
 ---
 
@@ -404,4 +404,4 @@ A: 可以。三级是建议，你可以只做每日（轻量）或只做每月�
 
 ---
 
-*Memory Audit Architecture 1.2.0*
+*Memory Audit Architecture 1.1.0*

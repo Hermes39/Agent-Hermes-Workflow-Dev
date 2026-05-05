@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "Three-tier audit system (daily/weekly/monthly) with feedback loop."
-version: 1.2.0
+version: 1.1.0
 updated: 2026-05-05
 ---
 
@@ -404,4 +404,4 @@ A: Yes. Three tiers are recommended; you can do only daily (lightweight) or only
 
 ---
 
-*Memory Audit Architecture 1.2.0*
+*Memory Audit Architecture 1.1.0*

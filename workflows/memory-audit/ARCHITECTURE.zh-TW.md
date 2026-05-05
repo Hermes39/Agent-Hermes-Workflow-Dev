@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "三級審計系統（日/週/月），帶反饋閉環。"
-version: 1.2.0
+version: 1.1.0
 updated: 2026-05-05
 ---
 
@@ -404,4 +404,4 @@ A: 可以。三級是建議，你可以只做每日（輕量）或只做每月�
 
 ---
 
-*Memory Audit Architecture 1.2.0*
+*Memory Audit Architecture 1.1.0*

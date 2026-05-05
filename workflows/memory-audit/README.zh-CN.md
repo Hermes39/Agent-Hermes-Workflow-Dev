@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "三级审计系统，带反馈闭环 — 模块概述。"
-version: 1.0.0
+version: 1.1.0
 updated: 2026-05-05
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "3層監査システム、フィードバックループ付き — モジュール概要。"
-version: 1.0.0
+version: 1.1.0
 updated: 2026-05-05
 ---
 

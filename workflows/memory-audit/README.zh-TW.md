@@ -1,7 +1,7 @@
 ---
 name: memory-audit
 description: "三級審計系統，帶反饋閉環 — 模組概述。"
-version: 1.0.0
+version: 1.1.0
 updated: 2026-05-05
 ---
 
